@@ -10,4 +10,4 @@
 
 from os import getenv
 
-BOT_TOKEN = getenv("BOT_TOKEN", "7838122290:AAEvec8b2oCyzttqrbB7tW9cBosr2DnCPbY")
+BOT_TOKEN = getenv("BOT_TOKEN", "")

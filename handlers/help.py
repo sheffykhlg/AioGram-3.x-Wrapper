@@ -15,6 +15,6 @@ from aiogram.filters import Command
 
 router = Router()
 
-@router.message(Command("start"))
+@router.message(Command("help"))
 async def help_command(message: Message):
     await message.answer("No help yet...")

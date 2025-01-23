@@ -14,6 +14,6 @@ from aiogram.dispatcher.router import Router
 
 router = Router()
 
-@router.message(commands=["help"])
+@router.message(Command(commands=["help"]))
 async def help_command(message: Message):
     await message.answer("No help yet...")

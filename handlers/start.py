@@ -10,6 +10,7 @@
 
 from aiogram.types import Message
 from aiogram.dispatcher.router import Router
+from aiogram.dispatcher.filters import Command
 
 router = Router()
 

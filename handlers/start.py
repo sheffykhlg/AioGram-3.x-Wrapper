@@ -13,6 +13,6 @@ from aiogram.dispatcher.router import Router
 
 router = Router()
 
-@router.message(commands=["start"])
+@router.message(Command(commands=["start"]))
 async def start_command(message: Message):
     await message.answer("Hello! 👋 I'm Save Restricted just send me post link for public or private channel I will download / formward that to you.")

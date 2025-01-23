@@ -11,10 +11,10 @@
 
 from aiogram.types import Message
 from aiogram.dispatcher.router import Router
-from aiogram.dispatcher.filters import Command
+from aiogram.filters import Command
 
 router = Router()
 
-@router.message(Command(commands=["help"]))
+@router.message(Command("start"))
 async def help_command(message: Message):
     await message.answer("No help yet...")
